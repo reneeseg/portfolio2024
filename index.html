@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>reneé segura | portfolio web</title>
+</head>
+<body>
+    <!-- Barra de Navegacion -->
+    <nav>
+        <h1>reneé segura</h1>
+        <ul>
+            <li><a href="#aboutme" class="nav-link">about me</a></li>
+            <li><a href="#skills" class="nav-link">skills</a></li>
+            <li><a href="#projects" class="nav-link">projects</a></li>
+            <li><a href="#contact" class="nav-link">contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero" id="about">
+        <img src="images/girlcode.png" alt="girl in tech" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">about me</h2>
+            <p class="bio-text">born in mexico, my journey began with a profound fascination for understanding human culture, leading me to study social anthropology. i enjoy writing short stories, gaming, diving into history and learning new languages.
+                recently i discovered a passion for web development, mastering html, css, and javascript. along the way, i've been captivated by the endless creative possibilities of AI and technology.
+                 </p>
+        </div>
+    </section>
+
+    <!-- About me -->
+    <section class="more-about"> 
+        <h2>more about me</h2>
+        <p>i studied Social Anthropology at the Autonomous University of Yucatan, where i conducted research on gender identity and wrote about non-binary individuals. i also hold a diploma in creative writing from the Centro Estatal de Bellas Artes in Merida, Yucatan.</p>
+        <p>my professional experience includes working in copywriting for marketing projects and serving as a bilingual interpreter for medical services temporarily. after visiting Germany and developing an interest in its culture, i am now learning the language.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">my top skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">some of my recent projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/project1.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest clone</h3>
+                <p class="project-details">created only with HTML and CSS3</p>
+                <a href="#" target="_blank" class="project-link">check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/project2.jpg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 2</h3>
+                <p class="project-details">loading...</p>
+                <a href="#" target="_blank" class="project-link">stay tuned!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/project3.webp" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">work in progress...</p>
+                <a href="#" target="_blank" class="project-link">stay tuned!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes sociales -->
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/kryssegura/"><img src="icons/icons8-linkedin-48.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+        <a href="https://github.com/reneeseg"><img src="icons/icons8-github.gif" alt="Git" loading="lazy" class="socicon"></a>
+        <a href="https://www.instagram.com/theymonet"><img src="icons/icons8-instagram.gif" alt="instagram" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!-- Scroll button -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/arrow_up.gif.gif" class="socicon up-arrow" alt="scroll up">
+    </i>
+
+    <!-- Footer -->
+    <footer>
+        <p>built by <a href="https://github.com/reneeseg" target="_blank">krys</a> ˚ʚ♡ɞ˚</p>
+    </footer>
+
+    <!-- JavaScript link -->
+    <script src="app.js"></script>
+    <!-- Ionicons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
