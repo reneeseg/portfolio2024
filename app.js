@@ -8,9 +8,9 @@ burger.addEventListener("click", () => {
 });
 
 // Cerrar el menú de burger
-const navLinks = document.querySelectorAll(".nav-link");
+const navLink = document.querySelectorAll(".nav-link");
 
-navLinks.forEach((link) => 
+navLink.forEach((link) => 
     link.addEventListener("click", () => {
         ul.classList.remove("show");
     })
